@@ -1,0 +1,17 @@
+package _internal.githubdotcom.dlclark.regexp2;
+import stdgo._internal.regexp.Regexp;
+import stdgo._internal.time.Time;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.log.Log;
+import _internal.githubdotcom.dlclark.regexp2.syntax.Syntax;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.os.Os;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.encoding.json.Json;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.sync.atomic_.Atomic_;
+import stdgo._internal.unicode.Unicode;
+@:keep @:follow @:using(_internal.githubdotcom.dlclark.regexp2.Regexp2_t_benchmarkshortsearch___localname___benchmark_9496pointer_static_extension.T_benchmarkShortSearch___localname___benchmark_9496Pointer_static_extension) typedef T_benchmarkShortSearch___localname___benchmark_9496PointerPointer = stdgo.Pointer<_internal.githubdotcom.dlclark.regexp2.Regexp2_t_benchmarkshortsearch___localname___benchmark_9496pointer.T_benchmarkShortSearch___localname___benchmark_9496Pointer>;

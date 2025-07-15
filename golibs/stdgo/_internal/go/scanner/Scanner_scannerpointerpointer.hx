@@ -1,0 +1,10 @@
+package stdgo._internal.go.scanner;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.unicode.Unicode;
+import stdgo._internal.unicode.utf8.Utf8;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.sort.Sort;
+@:keep @:follow @:using(stdgo._internal.go.scanner.Scanner_scannerpointer_static_extension.ScannerPointer_static_extension) typedef ScannerPointerPointer = stdgo.Pointer<stdgo._internal.go.scanner.Scanner_scannerpointer.ScannerPointer>;

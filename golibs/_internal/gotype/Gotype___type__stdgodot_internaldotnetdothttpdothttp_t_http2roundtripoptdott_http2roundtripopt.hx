@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotnetdothttpdotHttp_t_http2roundtripoptdotT_http2RoundTripOpt = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.net.http.Http_t_http2roundtripopt.T_http2RoundTripOpt", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "onlyCachedConn", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(bool_kind) }, optional : false }]), false, { get : () -> null });

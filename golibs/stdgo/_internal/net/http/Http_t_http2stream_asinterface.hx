@@ -1,0 +1,62 @@
+package stdgo._internal.net.http;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.time.Time;
+import stdgo._internal.os.Os;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.syscall.js.Js;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.net.http.internal.Internal;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.io.Io;
+import stdgo._internal.log.Log;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.context.Context;
+import stdgo._internal.encoding.base64.Base64;
+import stdgo._internal.net.http.internal.ascii.Ascii;
+import stdgo._internal.net.textproto.Textproto;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.net.Net;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.mime.Mime;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.mime.multipart.Multipart;
+import stdgo._internal.path.Path;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.bytes.Bytes;
+import _internal.golangdotorg.x.net.http.httpguts.Httpguts;
+import _internal.golangdotorg.x.net.idna.Idna;
+import stdgo._internal.net.http.httptrace.Httptrace;
+import stdgo._internal.net.url.Url;
+import _internal.golangdotorg.x.net.http.httpproxy.Httpproxy;
+import _internal.golangdotorg.x.net.http2.hpack.Hpack;
+import stdgo._internal.sync.atomic_.Atomic_;
+import stdgo._internal.math.rand.Rand;
+import stdgo._internal.sync.Sync;
+import stdgo._internal.compress.gzip.Gzip;
+import stdgo._internal.crypto.tls.Tls;
+import stdgo._internal.container.list.List;
+import stdgo._internal.internal.safefilepath.Safefilepath;
+class T_http2stream_asInterface {
+    @:keep
+    public dynamic function _processTrailerHeaders(_f:stdgo.Ref<stdgo._internal.net.http.Http_t_http2metaheadersframe.T_http2MetaHeadersFrame>):stdgo.Error return @:_0 __self__.value._processTrailerHeaders(_f);
+    @:keep
+    public dynamic function _onWriteTimeout():Void @:_0 __self__.value._onWriteTimeout();
+    @:keep
+    public dynamic function _onReadTimeout():Void @:_0 __self__.value._onReadTimeout();
+    @:keep
+    public dynamic function _copyTrailersToHandlerRequest():Void @:_0 __self__.value._copyTrailersToHandlerRequest();
+    @:keep
+    public dynamic function _endStream():Void @:_0 __self__.value._endStream();
+    @:keep
+    public dynamic function _isPushed():Bool return @:_0 __self__.value._isPushed();
+    public function new(__self__, __type__) {
+        this.__self__ = __self__;
+        this.__type__ = __type__;
+    }
+    public function __underlying__() return new stdgo.AnyInterface((__type__.kind() == stdgo._internal.internal.reflect.Reflect.KindType.pointer && !stdgo._internal.internal.reflect.Reflect.isReflectTypeRef(__type__)) ? (__self__ : Dynamic) : (__self__.value : Dynamic), __type__);
+    var __self__ : stdgo._internal.net.http.Http_t_http2streampointer.T_http2streamPointer;
+    var __type__ : stdgo._internal.internal.reflect.Reflect._Type;
+}

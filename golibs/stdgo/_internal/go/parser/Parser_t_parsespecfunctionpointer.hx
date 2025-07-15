@@ -1,0 +1,12 @@
+package stdgo._internal.go.parser;
+import stdgo._internal.io.Io;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.os.Os;
+import stdgo._internal.go.ast.Ast;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.go.build.constraint.Constraint;
+import stdgo._internal.go.internal.typeparams.Typeparams;
+@:keep @:follow @:using(stdgo._internal.go.parser.Parser_t_parsespecfunction_static_extension.T_parseSpecFunction_static_extension) @:using(stdgo._internal.go.parser.Parser_t_parsespecfunctionpointer_static_extension.T_parseSpecFunctionPointer_static_extension) typedef T_parseSpecFunctionPointer = stdgo.Pointer<stdgo._internal.go.parser.Parser_t_parsespecfunction.T_parseSpecFunction>;

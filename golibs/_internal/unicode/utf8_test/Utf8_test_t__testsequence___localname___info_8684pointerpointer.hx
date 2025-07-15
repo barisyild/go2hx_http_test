@@ -1,0 +1,2 @@
+package _internal.unicode.utf8_test;
+@:keep @:follow @:using(_internal.unicode.utf8_test.Utf8_test_t__testsequence___localname___info_8684pointer_static_extension.T__testSequence___localname___info_8684Pointer_static_extension) typedef T__testSequence___localname___info_8684PointerPointer = stdgo.Pointer<_internal.unicode.utf8_test.Utf8_test_t__testsequence___localname___info_8684pointer.T__testSequence___localname___info_8684Pointer>;

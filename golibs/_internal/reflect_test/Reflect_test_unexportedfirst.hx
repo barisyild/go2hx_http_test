@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_unexportedfirst_static_extension.UnExportedFirst_static_extension) @:using(_internal.reflect_test.Reflect_test_unexportedfirst_static_extension.UnExportedFirst_static_extension) typedef UnExportedFirst = stdgo.GoInt;

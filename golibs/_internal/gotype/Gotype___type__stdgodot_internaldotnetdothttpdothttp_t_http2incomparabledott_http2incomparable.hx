@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotnetdothttpdotHttp_t_http2incomparabledotT_http2incomparable = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.net.http.Http_t_http2incomparable.T_http2incomparable", [], stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, 0), false, { get : () -> null });

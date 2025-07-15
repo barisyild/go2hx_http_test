@@ -1,0 +1,5 @@
+package _internal.context_test;
+function _newAfterFuncContext():stdgo._internal.context.Context_context.Context {
+        //"file:///Users/o/.go/go1.21.3/src/context/afterfunc_test.go#L24"
+        return stdgo.Go.asInterface((stdgo.Go.setRef((new _internal.context_test.Context_test_t_afterfunccontext.T_afterFuncContext() : _internal.context_test.Context_test_t_afterfunccontext.T_afterFuncContext), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotcontext_testdotcontext_test_t_afterfunccontextdott_afterfunccontext.__type___internaldotcontext_testdotContext_test_t_afterfunccontextdotT_afterFuncContext })) : stdgo.Ref<_internal.context_test.Context_test_t_afterfunccontext.T_afterFuncContext>), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotcontext_testdotcontext_test_t_afterfunccontextdott_afterfunccontext.__type___internaldotcontext_testdotContext_test_t_afterfunccontextdotT_afterFuncContext }));
+    }

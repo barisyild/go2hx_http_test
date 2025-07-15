@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_valueequaltest_static_extension.ValueEqualTest_static_extension) @:using(_internal.reflect_test.Reflect_test_valueequaltestpointer_static_extension.ValueEqualTestPointer_static_extension) typedef ValueEqualTestPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_valueequaltest.ValueEqualTest>;

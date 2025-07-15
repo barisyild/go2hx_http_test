@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_emptystruct_static_extension.T_emptyStruct_static_extension) @:using(_internal.reflect_test.Reflect_test_t_emptystructpointer_static_extension.T_emptyStructPointer_static_extension) typedef T_emptyStructPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_emptystruct.T_emptyStruct>;

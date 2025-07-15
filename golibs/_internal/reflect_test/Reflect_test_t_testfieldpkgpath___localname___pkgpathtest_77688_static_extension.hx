@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testFieldPkgPath___localname___pkgpathTest_77688_asInterface) class T_testFieldPkgPath___localname___pkgpathTest_77688_static_extension {
+
+}

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_myfuncdotMyFunc = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_myfunc.MyFunc", [], stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }), false, { get : () -> null });

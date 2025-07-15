@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testStructOf___localname___structFieldType_141939_asInterface) class T_testStructOf___localname___structFieldType_141939_static_extension {
+
+}

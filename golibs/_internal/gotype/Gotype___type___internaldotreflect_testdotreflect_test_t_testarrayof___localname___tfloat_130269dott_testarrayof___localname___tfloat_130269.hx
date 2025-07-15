@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testarrayof___localname___tfloat_130269dotT_testArrayOf___localname___Tfloat_130269 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testarrayof___localname___tfloat_130269.T_testArrayOf___localname___Tfloat_130269", [], stdgo._internal.internal.reflect.GoType.basic(float64_kind), false, { get : () -> null });

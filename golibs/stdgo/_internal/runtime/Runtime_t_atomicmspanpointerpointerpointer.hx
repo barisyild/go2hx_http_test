@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_atomicmspanpointerpointer_static_extension.T_atomicMSpanPointerPointer_static_extension) typedef T_atomicMSpanPointerPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_atomicmspanpointerpointer.T_atomicMSpanPointerPointer>;

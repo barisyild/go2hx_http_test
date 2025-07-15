@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotgodotastdotAst_t_localerrordotT_localError = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.go.ast.Ast_t_localerror.T_localError", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "_err", embedded : false, tag : "", type : { get : () -> _internal.gotype.Gotype___type__stdgodoterror.__type__stdgodotError }, optional : false }]), false, { get : () -> null });

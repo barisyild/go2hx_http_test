@@ -1,0 +1,6 @@
+package stdgo._internal.errors;
+import stdgo._internal.internal.reflectlite.Reflectlite;
+@:keep class T__interface_8_static_extension {
+    @:interfacetypeffun
+    static public function is_(t:stdgo._internal.errors.Errors_t__interface_8.T__interface_8, _0:stdgo.Error):Bool return t.is_(_0);
+}

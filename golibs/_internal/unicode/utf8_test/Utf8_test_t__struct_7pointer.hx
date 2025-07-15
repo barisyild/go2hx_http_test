@@ -1,0 +1,2 @@
+package _internal.unicode.utf8_test;
+@:keep @:follow @:using(_internal.unicode.utf8_test.Utf8_test_t__struct_7_static_extension.T__struct_7_static_extension) @:using(_internal.unicode.utf8_test.Utf8_test_t__struct_7pointer_static_extension.T__struct_7Pointer_static_extension) @:using(_internal.unicode.utf8_test.Utf8_test_t__struct_7pointer_static_extension.T__struct_7Pointer_static_extension) typedef T__struct_7Pointer = stdgo.Pointer<_internal.unicode.utf8_test.Utf8_test_t__struct_7.T__struct_7>;

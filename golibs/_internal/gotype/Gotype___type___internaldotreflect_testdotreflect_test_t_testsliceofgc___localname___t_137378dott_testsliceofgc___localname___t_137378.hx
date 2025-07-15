@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testsliceofgc___localname___t_137378dotT_testSliceOfGC___localname___T_137378 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testsliceofgc___localname___t_137378.T_testSliceOfGC___localname___T_137378", [], stdgo._internal.internal.reflect.GoType.pointerType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uintptr_kind) }), false, { get : () -> null });

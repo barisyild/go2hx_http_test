@@ -1,0 +1,22 @@
+package stdgo._internal.internal.godebugs;
+var all : stdgo.Slice<stdgo._internal.internal.godebugs.Godebugs_info.Info> = (new stdgo.Slice<stdgo._internal.internal.godebugs.Godebugs_info.Info>(20, 20, ...[
+({ name : ("execerrdot" : stdgo.GoString), package_ : ("os/exec" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("gocachehash" : stdgo.GoString), package_ : ("cmd/go" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("gocachetest" : stdgo.GoString), package_ : ("cmd/go" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("gocacheverify" : stdgo.GoString), package_ : ("cmd/go" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("http2client" : stdgo.GoString), package_ : ("net/http" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("http2debug" : stdgo.GoString), package_ : ("net/http" : stdgo.GoString), opaque : true } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("http2server" : stdgo.GoString), package_ : ("net/http" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("installgoroot" : stdgo.GoString), package_ : ("go/build" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("jstmpllitinterp" : stdgo.GoString), package_ : ("html/template" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("multipartmaxheaders" : stdgo.GoString), package_ : ("mime/multipart" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("multipartmaxparts" : stdgo.GoString), package_ : ("mime/multipart" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("multipathtcp" : stdgo.GoString), package_ : ("net" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("netdns" : stdgo.GoString), package_ : ("net" : stdgo.GoString), opaque : true } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("panicnil" : stdgo.GoString), package_ : ("runtime" : stdgo.GoString), changed : (21 : stdgo.GoInt), old : ("1" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("randautoseed" : stdgo.GoString), package_ : ("math/rand" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("tarinsecurepath" : stdgo.GoString), package_ : ("archive/tar" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("tlsmaxrsasize" : stdgo.GoString), package_ : ("crypto/tls" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("x509sha1" : stdgo.GoString), package_ : ("crypto/x509" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("x509usefallbackroots" : stdgo.GoString), package_ : ("crypto/x509" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info),
+({ name : ("zipinsecurepath" : stdgo.GoString), package_ : ("archive/zip" : stdgo.GoString) } : stdgo._internal.internal.godebugs.Godebugs_info.Info)].concat([for (i in 20 ... (20 > 20 ? 20 : 20 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.internal.godebugs.Godebugs_info.Info)])) : stdgo.Slice<stdgo._internal.internal.godebugs.Godebugs_info.Info>);

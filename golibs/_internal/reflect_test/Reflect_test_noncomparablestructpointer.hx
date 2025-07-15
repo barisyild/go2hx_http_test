@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_noncomparablestruct_static_extension.NonComparableStruct_static_extension) @:using(_internal.reflect_test.Reflect_test_noncomparablestructpointer_static_extension.NonComparableStructPointer_static_extension) typedef NonComparableStructPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_noncomparablestruct.NonComparableStruct>;

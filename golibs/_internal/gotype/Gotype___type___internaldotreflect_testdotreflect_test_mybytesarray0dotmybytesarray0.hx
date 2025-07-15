@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_mybytesarray0dotMyBytesArray0 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_mybytesarray0.MyBytesArray0", [], stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint8_kind) }, 0), false, { get : () -> null });

@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_gcbgmarkworkernodepointer_static_extension.T_gcBgMarkWorkerNodePointer_static_extension) typedef T_gcBgMarkWorkerNodePointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_gcbgmarkworkernodepointer.T_gcBgMarkWorkerNodePointer>;

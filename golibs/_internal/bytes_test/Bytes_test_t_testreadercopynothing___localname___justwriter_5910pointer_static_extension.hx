@@ -1,0 +1,4 @@
+package _internal.bytes_test;
+@:keep @:allow(_internal.bytes_test.Bytes_test.T_testReaderCopyNothing___localname___justWriter_5910Pointer_asInterface) class T_testReaderCopyNothing___localname___justWriter_5910Pointer_static_extension {
+
+}

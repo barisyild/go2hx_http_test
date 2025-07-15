@@ -1,0 +1,2 @@
+package _internal.context_test;
+@:keep @:follow @:using(_internal.context_test.Context_test_t_afterfunccontext_static_extension.T_afterFuncContext_static_extension) @:using(_internal.context_test.Context_test_t_afterfunccontextpointer_static_extension.T_afterFuncContextPointer_static_extension) typedef T_afterFuncContextPointer = stdgo.Pointer<_internal.context_test.Context_test_t_afterfunccontext.T_afterFuncContext>;

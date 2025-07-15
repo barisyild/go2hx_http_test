@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testswapper___localname___s_197940_static_extension.T_testSwapper___localname___S_197940_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testswapper___localname___s_197940_static_extension.T_testSwapper___localname___S_197940_static_extension) typedef T_testSwapper___localname___S_197940 = stdgo.GoString;

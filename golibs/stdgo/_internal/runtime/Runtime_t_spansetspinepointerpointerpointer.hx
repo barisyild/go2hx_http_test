@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_spansetspinepointerpointer_static_extension.T_spanSetSpinePointerPointer_static_extension) typedef T_spanSetSpinePointerPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_spansetspinepointerpointer.T_spanSetSpinePointerPointer>;

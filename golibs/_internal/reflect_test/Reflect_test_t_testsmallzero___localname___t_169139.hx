@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testsmallzero___localname___t_169139_static_extension.T_testSmallZero___localname___T_169139_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testsmallzero___localname___t_169139_static_extension.T_testSmallZero___localname___T_169139_static_extension) typedef T_testSmallZero___localname___T_169139 = stdgo.GoArray<stdgo.GoUInt8>;

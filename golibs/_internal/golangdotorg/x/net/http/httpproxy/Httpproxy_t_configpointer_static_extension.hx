@@ -1,0 +1,11 @@
+package _internal.golangdotorg.x.net.http.httpproxy;
+import stdgo._internal.os.Os;
+import stdgo._internal.net.url.Url;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.net.Net;
+import stdgo._internal.strings.Strings;
+import _internal.golangdotorg.x.net.idna.Idna;
+import stdgo._internal.errors.Errors;
+@:keep @:allow(_internal.golangdotorg.x.net.http.httpproxy.Httpproxy.T_configPointer_asInterface) class T_configPointer_static_extension {
+
+}

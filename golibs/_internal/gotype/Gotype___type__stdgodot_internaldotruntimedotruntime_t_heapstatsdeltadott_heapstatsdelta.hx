@@ -1,0 +1,15 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotruntimedotRuntime_t_heapstatsdeltadotT_heapStatsDelta = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.runtime.Runtime_t_heapstatsdelta.T_heapStatsDelta", [new stdgo._internal.internal.reflect.MethodType("_merge", { get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotruntimedotruntime_t_heapstatsdeltadott_heapstatsdelta.__type__stdgodot_internaldotruntimedotRuntime_t_heapstatsdeltadotT_heapStatsDelta })] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType })], stdgo._internal.internal.reflect.GoType.structType([
+{ name : "_committed", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_released", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_inHeap", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_inStacks", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_inWorkBufs", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_inPtrScalarBits", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int64_kind) }, optional : false },
+{ name : "_tinyAllocCount", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, optional : false },
+{ name : "_largeAlloc", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, optional : false },
+{ name : "_largeAllocCount", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, optional : false },
+{ name : "_smallAllocCount", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, 68) }, optional : false },
+{ name : "_largeFree", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, optional : false },
+{ name : "_largeFreeCount", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, optional : false },
+{ name : "_smallFreeCount", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, 68) }, optional : false }]), false, { get : () -> null });

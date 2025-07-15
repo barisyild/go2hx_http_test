@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotgolangdotorgdotxdotcryptodotcryptobytedotCryptobyte_builderrordotBuildError = stdgo._internal.internal.reflect.GoType.named("_internal.golangdotorg.x.crypto.cryptobyte.Cryptobyte_builderror.BuildError", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "err", embedded : false, tag : "", type : { get : () -> _internal.gotype.Gotype___type__stdgodoterror.__type__stdgodotError }, optional : false }]), false, { get : () -> null });

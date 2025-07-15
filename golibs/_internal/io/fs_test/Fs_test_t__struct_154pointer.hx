@@ -1,0 +1,2 @@
+package _internal.io.fs_test;
+@:keep @:follow @:using(_internal.io.fs_test.Fs_test_t__struct_154_static_extension.T__struct_154_static_extension) @:using(_internal.io.fs_test.Fs_test_t__struct_154pointer_static_extension.T__struct_154Pointer_static_extension) @:using(_internal.io.fs_test.Fs_test_t__struct_154pointer_static_extension.T__struct_154Pointer_static_extension) typedef T__struct_154Pointer = stdgo.Pointer<_internal.io.fs_test.Fs_test_t__struct_154.T__struct_154>;

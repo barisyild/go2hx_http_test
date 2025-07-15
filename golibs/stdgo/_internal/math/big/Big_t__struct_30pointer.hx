@@ -1,0 +1,12 @@
+package stdgo._internal.math.big;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.bits.Bits;
+import stdgo._internal.math.Math;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.math.rand.Rand;
+@:keep @:follow @:using(stdgo._internal.math.big.Big_t__struct_30_static_extension.T__struct_30_static_extension) @:using(stdgo._internal.math.big.Big_t__struct_30pointer_static_extension.T__struct_30Pointer_static_extension) @:using(stdgo._internal.math.big.Big_t__struct_30pointer_static_extension.T__struct_30Pointer_static_extension) typedef T__struct_30Pointer = stdgo.Pointer<stdgo._internal.math.big.Big_t__struct_30.T__struct_30>;

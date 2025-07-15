@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testStructOfExportRules___localname___966Type_142230_asInterface) class T_testStructOfExportRules___localname___966Type_142230_static_extension {
+
+}

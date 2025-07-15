@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_nonexportedfirst_static_extension.NonExportedFirst_static_extension) @:using(_internal.reflect_test.Reflect_test_nonexportedfirstpointer_static_extension.NonExportedFirstPointer_static_extension) typedef NonExportedFirstPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_nonexportedfirst.NonExportedFirst>;

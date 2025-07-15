@@ -1,0 +1,52 @@
+package stdgo._internal.net.http;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.time.Time;
+import stdgo._internal.os.Os;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.syscall.js.Js;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.net.http.internal.Internal;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.io.Io;
+import stdgo._internal.log.Log;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.context.Context;
+import stdgo._internal.encoding.base64.Base64;
+import stdgo._internal.net.http.internal.ascii.Ascii;
+import stdgo._internal.net.textproto.Textproto;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.net.Net;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.mime.Mime;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.mime.multipart.Multipart;
+import stdgo._internal.path.Path;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.bytes.Bytes;
+import _internal.golangdotorg.x.net.http.httpguts.Httpguts;
+import _internal.golangdotorg.x.net.idna.Idna;
+import stdgo._internal.net.http.httptrace.Httptrace;
+import stdgo._internal.net.url.Url;
+import _internal.golangdotorg.x.net.http.httpproxy.Httpproxy;
+import _internal.golangdotorg.x.net.http2.hpack.Hpack;
+import stdgo._internal.sync.atomic_.Atomic_;
+import stdgo._internal.math.rand.Rand;
+import stdgo._internal.sync.Sync;
+import stdgo._internal.compress.gzip.Gzip;
+import stdgo._internal.crypto.tls.Tls;
+import stdgo._internal.container.list.List;
+import stdgo._internal.internal.safefilepath.Safefilepath;
+function _newPopulateResponseWriter():{ var _0 : stdgo.Ref<stdgo._internal.net.http.Http_t_populateresponse.T_populateResponse>; var _1 : stdgo.Chan<stdgo.Ref<stdgo._internal.net.http.Http_response.Response>>; } {
+        var __tmp__ = stdgo._internal.io.Io_pipe.pipe(), _pr:stdgo.Ref<stdgo._internal.io.Io_pipereader.PipeReader> = __tmp__._0, _pw:stdgo.Ref<stdgo._internal.io.Io_pipewriter.PipeWriter> = __tmp__._1;
+        var _rw = (stdgo.Go.setRef(({ _ch : (new stdgo.Chan<stdgo.Ref<stdgo._internal.net.http.Http_response.Response>>(0, () -> (null : stdgo.Ref<stdgo._internal.net.http.Http_response.Response>)) : stdgo.Chan<stdgo.Ref<stdgo._internal.net.http.Http_response.Response>>), _pw : _pw, _res : (stdgo.Go.setRef(({ proto : ("HTTP/1.0" : stdgo.GoString), protoMajor : (1 : stdgo.GoInt), header : (({
+            final x = new stdgo.GoMap.GoStringMap<stdgo.Slice<stdgo.GoString>>();
+            x.__defaultValue__ = () -> (null : stdgo.Slice<stdgo.GoString>);
+            {};
+            x;
+        } : stdgo.GoMap<stdgo.GoString, stdgo.Slice<stdgo.GoString>>) : stdgo._internal.net.http.Http_header.Header), close : true, body : stdgo.Go.asInterface(_pr, stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotiodotio_pipereaderdotpipereader.__type__stdgodot_internaldotiodotIo_pipereaderdotPipeReader })) } : stdgo._internal.net.http.Http_response.Response), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotnetdothttpdothttp_responsedotresponse.__type__stdgodot_internaldotnetdothttpdotHttp_responsedotResponse })) : stdgo.Ref<stdgo._internal.net.http.Http_response.Response>) } : stdgo._internal.net.http.Http_t_populateresponse.T_populateResponse), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotnetdothttpdothttp_t_populateresponsedott_populateresponse.__type__stdgodot_internaldotnetdothttpdotHttp_t_populateresponsedotT_populateResponse })) : stdgo.Ref<stdgo._internal.net.http.Http_t_populateresponse.T_populateResponse>);
+        //"file:///Users/o/.go/go1.21.3/src/net/http/filetransport.go#L62"
+        return { _0 : _rw, _1 : (@:checkr _rw ?? throw stdgo.Error._nullPointerDereference.__underlying__())._ch };
+    }

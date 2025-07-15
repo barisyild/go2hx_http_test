@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotcontext_testdotContext_test_t_examplewithvalue___localname___favcontextkey_2611dotT_exampleWithValue___localname___favContextKey_2611 = stdgo._internal.internal.reflect.GoType.named("_internal.context_test.Context_test_t_examplewithvalue___localname___favcontextkey_2611.T_exampleWithValue___localname___favContextKey_2611", [], stdgo._internal.internal.reflect.GoType.basic(string_kind), false, { get : () -> null });

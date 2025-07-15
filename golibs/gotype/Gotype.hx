@@ -1,0 +1,4 @@
+package gotype;
+class Gotype {
+
+}

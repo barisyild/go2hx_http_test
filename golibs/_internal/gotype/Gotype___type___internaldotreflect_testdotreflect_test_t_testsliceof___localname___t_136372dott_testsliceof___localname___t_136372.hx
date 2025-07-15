@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testsliceof___localname___t_136372dotT_testSliceOf___localname___T_136372 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testsliceof___localname___t_136372.T_testSliceOf___localname___T_136372", [], stdgo._internal.internal.reflect.GoType.basic(int_kind), false, { get : () -> null });

@@ -1,0 +1,10 @@
+package stdgo._internal.time;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.syscall.Syscall;
+import stdgo._internal.runtime.Runtime;
+function _fixedZone(_name:stdgo.GoString, _offset:stdgo.GoInt):stdgo.Ref<stdgo._internal.time.Time_location.Location> {
+        var _l = (stdgo.Go.setRef(({ _name : _name?.__copy__(), _zone : (new stdgo.Slice<stdgo._internal.time.Time_t_zone.T_zone>(1, 1, ...[(new stdgo._internal.time.Time_t_zone.T_zone(_name?.__copy__(), _offset, false) : stdgo._internal.time.Time_t_zone.T_zone)].concat([for (i in 1 ... (1 > 1 ? 1 : 1 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.time.Time_t_zone.T_zone)])) : stdgo.Slice<stdgo._internal.time.Time_t_zone.T_zone>), _tx : (new stdgo.Slice<stdgo._internal.time.Time_t_zonetrans.T_zoneTrans>(1, 1, ...[(new stdgo._internal.time.Time_t_zonetrans.T_zoneTrans((-9223372036854775808i64 : stdgo.GoInt64), (0 : stdgo.GoUInt8), false, false) : stdgo._internal.time.Time_t_zonetrans.T_zoneTrans)].concat([for (i in 1 ... (1 > 1 ? 1 : 1 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.time.Time_t_zonetrans.T_zoneTrans)])) : stdgo.Slice<stdgo._internal.time.Time_t_zonetrans.T_zoneTrans>), _cacheStart : (-9223372036854775808i64 : stdgo.GoInt64), _cacheEnd : (9223372036854775807i64 : stdgo.GoInt64) } : stdgo._internal.time.Time_location.Location), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldottimedottime_locationdotlocation.__type__stdgodot_internaldottimedotTime_locationdotLocation })) : stdgo.Ref<stdgo._internal.time.Time_location.Location>);
+        (@:checkr _l ?? throw stdgo.Error._nullPointerDereference.__underlying__())._cacheZone = (stdgo.Go.setRef((@:checkr _l ?? throw stdgo.Error._nullPointerDereference.__underlying__())._zone[(0 : stdgo.GoInt)], stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldottimedottime_t_zonedott_zone.__type__stdgodot_internaldottimedotTime_t_zonedotT_zone })) : stdgo.Ref<stdgo._internal.time.Time_t_zone.T_zone>);
+        //"file:///Users/o/.go/go1.21.3/src/time/zoneinfo.go#L135"
+        return _l;
+    }

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotnetdothttpdothttptracedotHttptrace_dnsstartinfodotDNSStartInfo = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.net.http.httptrace.Httptrace_dnsstartinfo.DNSStartInfo", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "host", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(string_kind) }, optional : false }]), false, { get : () -> null });

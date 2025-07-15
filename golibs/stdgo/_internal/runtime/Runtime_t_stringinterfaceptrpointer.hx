@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_stringinterfaceptr_static_extension.T_stringInterfacePtr_static_extension) @:using(stdgo._internal.runtime.Runtime_t_stringinterfaceptrpointer_static_extension.T_stringInterfacePtrPointer_static_extension) typedef T_stringInterfacePtrPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_stringinterfaceptr.T_stringInterfacePtr>;

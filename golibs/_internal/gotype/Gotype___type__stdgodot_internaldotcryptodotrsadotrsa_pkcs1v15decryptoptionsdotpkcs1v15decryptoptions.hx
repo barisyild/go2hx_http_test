@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotcryptodotrsadotRsa_pkcs1v15decryptoptionsdotPKCS1v15DecryptOptions = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.crypto.rsa.Rsa_pkcs1v15decryptoptions.PKCS1v15DecryptOptions", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "sessionKeyLen", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int_kind) }, optional : false }]), false, { get : () -> null });

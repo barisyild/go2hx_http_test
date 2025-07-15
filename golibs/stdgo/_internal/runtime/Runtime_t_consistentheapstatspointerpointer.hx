@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_consistentheapstatspointer_static_extension.T_consistentHeapStatsPointer_static_extension) typedef T_consistentHeapStatsPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_consistentheapstatspointer.T_consistentHeapStatsPointer>;

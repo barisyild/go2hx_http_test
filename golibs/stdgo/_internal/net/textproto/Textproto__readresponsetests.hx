@@ -1,0 +1,13 @@
+package stdgo._internal.net.textproto;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.io.Io;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.testing.Testing;
+import stdgo._internal.net.Net;
+var _readResponseTests : stdgo.Slice<stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest> = (new stdgo.Slice<stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest>(4, 4, ...[(new stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest(("230-Anonymous access granted, restrictions apply\nRead the file README.txt,\n230  please" : stdgo.GoString), (23 : stdgo.GoInt), (230 : stdgo.GoInt), ("Anonymous access granted, restrictions apply\nRead the file README.txt,\n please" : stdgo.GoString)) : stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest), (new stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest(("230 Anonymous access granted, restrictions apply\n" : stdgo.GoString), (23 : stdgo.GoInt), (230 : stdgo.GoInt), ("Anonymous access granted, restrictions apply" : stdgo.GoString)) : stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest), (new stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest(("400-A\n400-B\n400 C" : stdgo.GoString), (4 : stdgo.GoInt), (400 : stdgo.GoInt), ("A\nB\nC" : stdgo.GoString)) : stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest), (new stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest(("400-A\r\n400-B\r\n400 C\r\n" : stdgo.GoString), (4 : stdgo.GoInt), (400 : stdgo.GoInt), ("A\nB\nC" : stdgo.GoString)) : stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest)].concat([for (i in 4 ... (4 > 4 ? 4 : 4 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest)])) : stdgo.Slice<stdgo._internal.net.textproto.Textproto_t_readresponsetest.T_readResponseTest>);

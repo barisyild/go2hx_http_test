@@ -1,0 +1,12 @@
+package stdgo._internal.math.big;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.bits.Bits;
+import stdgo._internal.math.Math;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.math.rand.Rand;
+final _zero : stdgo._internal.math.big.Big_t_form.T_form = 0i64;

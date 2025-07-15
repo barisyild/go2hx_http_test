@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testMakeFuncValidReturnAssignments___localname___T_58184_asInterface) class T_testMakeFuncValidReturnAssignments___localname___T_58184_static_extension {
+
+}

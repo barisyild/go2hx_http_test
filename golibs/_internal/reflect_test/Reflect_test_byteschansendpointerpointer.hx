@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_byteschansendpointer_static_extension.BytesChanSendPointer_static_extension) typedef BytesChanSendPointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_byteschansendpointer.BytesChanSendPointer>;

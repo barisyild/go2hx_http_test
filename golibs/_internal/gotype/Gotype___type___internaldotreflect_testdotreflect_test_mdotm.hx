@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_mdotM = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_m.M", [], stdgo._internal.internal.reflect.GoType.mapType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(string_kind) }, { get : () -> stdgo._internal.internal.reflect.GoType.interfaceType(true, []) }), false, { get : () -> null });

@@ -1,0 +1,22 @@
+package _internal.golangdotorg.x.net.dns.dnsmessage;
+import stdgo._internal.errors.Errors;
+var _typeNames : stdgo.GoMap<_internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_, stdgo.GoString> = ({
+        final x = new stdgo.GoMap.GoIntMap<stdgo.GoString>();
+        x.__defaultValue__ = () -> ("" : stdgo.GoString);
+        x.set((1 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeA" : stdgo.GoString));
+x.set((2 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeNS" : stdgo.GoString));
+x.set((5 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeCNAME" : stdgo.GoString));
+x.set((6 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeSOA" : stdgo.GoString));
+x.set((12 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypePTR" : stdgo.GoString));
+x.set((15 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeMX" : stdgo.GoString));
+x.set((16 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeTXT" : stdgo.GoString));
+x.set((28 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeAAAA" : stdgo.GoString));
+x.set((33 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeSRV" : stdgo.GoString));
+x.set((41 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeOPT" : stdgo.GoString));
+x.set((11 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeWKS" : stdgo.GoString));
+x.set((13 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeHINFO" : stdgo.GoString));
+x.set((14 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeMINFO" : stdgo.GoString));
+x.set((252 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeAXFR" : stdgo.GoString));
+x.set((255 : _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_), ("TypeALL" : stdgo.GoString));
+        x;
+    } : stdgo.GoMap<_internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage_type_.Type_, stdgo.GoString>);

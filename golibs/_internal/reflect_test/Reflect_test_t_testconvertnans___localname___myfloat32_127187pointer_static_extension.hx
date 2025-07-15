@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testConvertNaNs___localname___myFloat32_127187Pointer_asInterface) class T_testConvertNaNs___localname___myFloat32_127187Pointer_static_extension {
+
+}

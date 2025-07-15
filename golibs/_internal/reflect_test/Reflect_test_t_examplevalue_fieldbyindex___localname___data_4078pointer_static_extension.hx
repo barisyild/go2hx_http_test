@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_exampleValue_FieldByIndex___localname___data_4078Pointer_asInterface) class T_exampleValue_FieldByIndex___localname___data_4078Pointer_static_extension {
+
+}

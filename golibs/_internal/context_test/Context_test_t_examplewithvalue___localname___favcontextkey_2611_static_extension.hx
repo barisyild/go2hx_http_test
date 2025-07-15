@@ -1,0 +1,4 @@
+package _internal.context_test;
+@:keep @:allow(_internal.context_test.Context_test.T_exampleWithValue___localname___favContextKey_2611_asInterface) class T_exampleWithValue___localname___favContextKey_2611_static_extension {
+
+}

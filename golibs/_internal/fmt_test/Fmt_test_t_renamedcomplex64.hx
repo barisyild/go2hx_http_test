@@ -1,0 +1,2 @@
+package _internal.fmt_test;
+@:named @:using(_internal.fmt_test.Fmt_test_t_renamedcomplex64_static_extension.T_renamedComplex64_static_extension) @:using(_internal.fmt_test.Fmt_test_t_renamedcomplex64_static_extension.T_renamedComplex64_static_extension) typedef T_renamedComplex64 = stdgo.GoComplex64;

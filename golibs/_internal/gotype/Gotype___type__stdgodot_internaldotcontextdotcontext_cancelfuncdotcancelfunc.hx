@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotcontextdotContext_cancelfuncdotCancelFunc = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.context.Context_cancelfunc.CancelFunc", [], stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }), false, { get : () -> null });

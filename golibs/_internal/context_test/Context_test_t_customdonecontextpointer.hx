@@ -1,0 +1,2 @@
+package _internal.context_test;
+@:keep @:follow @:using(_internal.context_test.Context_test_t_customdonecontext_static_extension.T_customDoneContext_static_extension) @:using(_internal.context_test.Context_test_t_customdonecontextpointer_static_extension.T_customDoneContextPointer_static_extension) typedef T_customDoneContextPointer = stdgo.Pointer<_internal.context_test.Context_test_t_customdonecontext.T_customDoneContext>;

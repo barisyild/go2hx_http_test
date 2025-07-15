@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_traceallocblockptrpointer_static_extension.T_traceAllocBlockPtrPointer_static_extension) typedef T_traceAllocBlockPtrPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_traceallocblockptrpointer.T_traceAllocBlockPtrPointer>;

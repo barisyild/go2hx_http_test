@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotsyscalldotSyscall_sockaddrunixdotSockaddrUnix = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.syscall.Syscall_sockaddrunix.SockaddrUnix", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "name", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(string_kind) }, optional : false }]), false, { get : () -> null });

@@ -1,0 +1,13 @@
+package stdgo._internal.crypto.rsa;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.big.Big;
+import stdgo._internal.crypto.internal.randutil.Randutil;
+import stdgo._internal.crypto.internal.boring.Boring;
+import stdgo._internal.crypto.subtle.Subtle;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.crypto.internal.boring.bbig.Bbig;
+import stdgo._internal.crypto.internal.bigmod.Bigmod;
+import stdgo._internal.math.Math;
+import stdgo._internal.crypto.rand.Rand;
+@:keep @:follow @:using(stdgo._internal.crypto.rsa.Rsa_privatekey_static_extension.PrivateKey_static_extension) @:using(stdgo._internal.crypto.rsa.Rsa_privatekeypointer_static_extension.PrivateKeyPointer_static_extension) typedef PrivateKeyPointer = stdgo.Pointer<stdgo._internal.crypto.rsa.Rsa_privatekey.PrivateKey>;

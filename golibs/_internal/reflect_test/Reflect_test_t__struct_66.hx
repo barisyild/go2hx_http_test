@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:local @:using(_internal.reflect_test.Reflect_test_t__struct_66_static_extension.T__struct_66_static_extension) @:using(_internal.reflect_test.Reflect_test_t__struct_66_static_extension.T__struct_66_static_extension) @:using(_internal.reflect_test.Reflect_test_t__struct_66_static_extension.T__struct_66_static_extension) typedef T__struct_66 = {
+    public var _x : _internal.reflect_test.Reflect_test_t__struct_153.T__struct_153;
+};

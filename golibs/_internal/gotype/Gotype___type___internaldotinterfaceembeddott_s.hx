@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotInterfaceEmbeddotT_s = stdgo._internal.internal.reflect.GoType.named("_internal.InterfaceEmbed.T_s", [new stdgo._internal.internal.reflect.MethodType("write", { get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType })], stdgo._internal.internal.reflect.GoType.structType([]), false, { get : () -> null });

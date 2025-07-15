@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotgolangdotorgdotxdotnetdothttp2dothpackdotHpack_t_incomparabledotT_incomparable = stdgo._internal.internal.reflect.GoType.named("_internal.golangdotorg.x.net.http2.hpack.Hpack_t_incomparable.T_incomparable", [], stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, 0), false, { get : () -> null });

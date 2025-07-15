@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_rs2dotRS2 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_rs2.RS2", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "rS1", embedded : true, tag : "", type : { get : () -> _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_rs1dotrs1.__type___internaldotreflect_testdotReflect_test_rs1dotRS1 }, optional : false }]), false, { get : () -> null });

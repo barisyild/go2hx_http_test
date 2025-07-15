@@ -1,0 +1,8 @@
+package _internal.io.fs_test;
+var _testFsys : stdgo._internal.testing.fstest.Fstest_mapfs.MapFS = (({
+    final x = new stdgo.GoMap.GoStringMap<stdgo.Ref<stdgo._internal.testing.fstest.Fstest_mapfile.MapFile>>();
+    x.__defaultValue__ = () -> (null : stdgo.Ref<stdgo._internal.testing.fstest.Fstest_mapfile.MapFile>);
+    x.set(("hello.txt" : stdgo.GoString), ({ data : ((("hello, world" : stdgo.GoString) : stdgo.GoString) : stdgo.Slice<stdgo.GoUInt8>), mode : (302u32 : stdgo._internal.io.fs.Fs_filemode.FileMode), modTime : stdgo._internal.time.Time_now.now()?.__copy__(), sys : new stdgo.AnyInterface(stdgo.Go.pointer(_internal.io.fs_test.Fs_test__sysvalue._sysValue), new stdgo._internal.internal.reflect.Reflect._Type(stdgo._internal.internal.reflect.GoType.pointerType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(int_kind) }))) } : stdgo._internal.testing.fstest.Fstest_mapfile.MapFile));
+x.set(("sub/goodbye.txt" : stdgo.GoString), ({ data : ((("goodbye, world" : stdgo.GoString) : stdgo.GoString) : stdgo.Slice<stdgo.GoUInt8>), mode : (302u32 : stdgo._internal.io.fs.Fs_filemode.FileMode), modTime : stdgo._internal.time.Time_now.now()?.__copy__(), sys : new stdgo.AnyInterface(stdgo.Go.pointer(_internal.io.fs_test.Fs_test__sysvalue._sysValue), new stdgo._internal.internal.reflect.Reflect._Type(stdgo._internal.internal.reflect.GoType.pointerType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(int_kind) }))) } : stdgo._internal.testing.fstest.Fstest_mapfile.MapFile));
+    x;
+} : stdgo.GoMap<stdgo.GoString, stdgo.Ref<stdgo._internal.testing.fstest.Fstest_mapfile.MapFile>>) : stdgo._internal.testing.fstest.Fstest_mapfs.MapFS);

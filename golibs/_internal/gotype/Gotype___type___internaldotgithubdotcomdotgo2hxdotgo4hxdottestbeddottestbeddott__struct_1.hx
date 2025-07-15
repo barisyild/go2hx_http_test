@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotgithubdotcomdotgo2hxdotgo4hxdottestbeddotTestbeddotT__struct_1 = stdgo._internal.internal.reflect.GoType.named("_internal.githubdotcom.go2hx.go4hx.testbed.Testbed.T__struct_1", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "_c", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int_kind) }, optional : false }]), false, { get : () -> null });

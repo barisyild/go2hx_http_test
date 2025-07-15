@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotcryptodottlsdotTls_quicsessionticketoptionsdotQUICSessionTicketOptions = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.crypto.tls.Tls_quicsessionticketoptions.QUICSessionTicketOptions", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "earlyData", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(bool_kind) }, optional : false }]), false, { get : () -> null });

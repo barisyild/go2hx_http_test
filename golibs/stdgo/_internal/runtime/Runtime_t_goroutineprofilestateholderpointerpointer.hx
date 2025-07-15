@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_goroutineprofilestateholderpointer_static_extension.T_goroutineProfileStateHolderPointer_static_extension) typedef T_goroutineProfileStateHolderPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_goroutineprofilestateholderpointer.T_goroutineProfileStateHolderPointer>;

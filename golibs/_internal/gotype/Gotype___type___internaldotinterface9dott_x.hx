@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotInterface9dotT_x = stdgo._internal.internal.reflect.GoType.named("_internal.Interface9.T_x", [new stdgo._internal.internal.reflect.MethodType("_j", { get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType })], stdgo._internal.internal.reflect.GoType.basic(string_kind), false, { get : () -> null });

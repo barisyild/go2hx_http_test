@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_keepmethodlive_static_extension.KeepMethodLive_static_extension) @:using(_internal.reflect_test.Reflect_test_keepmethodlivepointer_static_extension.KeepMethodLivePointer_static_extension) typedef KeepMethodLivePointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_keepmethodlive.KeepMethodLive>;

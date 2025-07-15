@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testchanofdir___localname___t_159545_static_extension.T_testChanOfDir___localname___T_159545_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testchanofdir___localname___t_159545_static_extension.T_testChanOfDir___localname___T_159545_static_extension) typedef T_testChanOfDir___localname___T_159545 = stdgo.GoString;

@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testGCBits___localname___Ptrscalar_185243Pointer_asInterface) class T_testGCBits___localname___Ptrscalar_185243Pointer_static_extension {
+
+}

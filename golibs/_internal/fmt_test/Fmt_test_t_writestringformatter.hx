@@ -1,0 +1,2 @@
+package _internal.fmt_test;
+@:named @:using(_internal.fmt_test.Fmt_test_t_writestringformatter_static_extension.T_writeStringFormatter_static_extension) @:using(_internal.fmt_test.Fmt_test_t_writestringformatter_static_extension.T_writeStringFormatter_static_extension) typedef T_writeStringFormatter = stdgo.GoString;

@@ -1,0 +1,12 @@
+package stdgo._internal.math.big;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.bits.Bits;
+import stdgo._internal.math.Math;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.math.rand.Rand;
+@:keep @:follow @:using(stdgo._internal.math.big.Big_rat_static_extension.Rat_static_extension) @:using(stdgo._internal.math.big.Big_ratpointer_static_extension.RatPointer_static_extension) typedef RatPointer = stdgo.Pointer<stdgo._internal.math.big.Big_rat.Rat>;

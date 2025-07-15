@@ -1,0 +1,9 @@
+package _internal.reflect_test;
+function testCallMethodJump(_t:stdgo.Ref<stdgo._internal.testing.Testing_t_.T_>):Void {
+        stdgo._internal.reflect.Reflect_callgc.callGC.value = true;
+        var _p = (stdgo.Go.setRef(({ inner : (stdgo.Go.setRef(({} : _internal.reflect_test.Reflect_test_inner.Inner), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_innerdotinner.__type___internaldotreflect_testdotReflect_test_innerdotInner })) : stdgo.Ref<_internal.reflect_test.Reflect_test_inner.Inner>) } : _internal.reflect_test.Reflect_test_outer.Outer), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_outerdotouter.__type___internaldotreflect_testdotReflect_test_outerdotOuter })) : stdgo.Ref<_internal.reflect_test.Reflect_test_outer.Outer>);
+        (@:checkr (@:checkr _p ?? throw stdgo.Error._nullPointerDereference.__underlying__()).inner ?? throw stdgo.Error._nullPointerDereference.__underlying__()).x = _p;
+        //"file:///Users/o/.go/go1.21.3/src/reflect/all_test.go#L6644"
+        stdgo._internal.reflect.Reflect_valueof.valueOf(new stdgo.AnyInterface(stdgo.Go.asInterface(_p, _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_outerdotouter.__type___internaldotreflect_testdotReflect_test_outerdotOuter), new stdgo._internal.internal.reflect.Reflect._Type(stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_outerdotouter.__type___internaldotreflect_testdotReflect_test_outerdotOuter })))).method((0 : stdgo.GoInt)).call((null : stdgo.Slice<stdgo._internal.reflect.Reflect_value.Value>));
+        stdgo._internal.reflect.Reflect_callgc.callGC.value = false;
+    }

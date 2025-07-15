@@ -1,0 +1,2 @@
+package stdgo._internal.internal.cpu;
+@:keep @:follow @:using(stdgo._internal.internal.cpu.Cpu_t__struct_161pointer_static_extension.T__struct_161Pointer_static_extension) @:using(stdgo._internal.internal.cpu.Cpu_t__struct_161pointerpointer_static_extension.T__struct_161PointerPointer_static_extension) typedef T__struct_161PointerPointer = stdgo.Pointer<stdgo._internal.internal.cpu.Cpu_t__struct_161pointer.T__struct_161Pointer>;

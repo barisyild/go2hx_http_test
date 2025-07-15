@@ -1,0 +1,77 @@
+package stdgo._internal.net.http;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.time.Time;
+import stdgo._internal.os.Os;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.syscall.js.Js;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.net.http.internal.Internal;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.io.Io;
+import stdgo._internal.log.Log;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.context.Context;
+import stdgo._internal.encoding.base64.Base64;
+import stdgo._internal.net.http.internal.ascii.Ascii;
+import stdgo._internal.net.textproto.Textproto;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.net.Net;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.mime.Mime;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.mime.multipart.Multipart;
+import stdgo._internal.path.Path;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.bytes.Bytes;
+import _internal.golangdotorg.x.net.http.httpguts.Httpguts;
+import _internal.golangdotorg.x.net.idna.Idna;
+import stdgo._internal.net.http.httptrace.Httptrace;
+import stdgo._internal.net.url.Url;
+import _internal.golangdotorg.x.net.http.httpproxy.Httpproxy;
+import _internal.golangdotorg.x.net.http2.hpack.Hpack;
+import stdgo._internal.sync.atomic_.Atomic_;
+import stdgo._internal.math.rand.Rand;
+import stdgo._internal.sync.Sync;
+import stdgo._internal.compress.gzip.Gzip;
+import stdgo._internal.crypto.tls.Tls;
+import stdgo._internal.container.list.List;
+import stdgo._internal.internal.safefilepath.Safefilepath;
+class T_http2SettingsFrame_asInterface {
+    @:keep
+    public dynamic function foreachSetting(_fn:stdgo._internal.net.http.Http_t_http2setting.T_http2Setting -> stdgo.Error):stdgo.Error return @:_0 __self__.value.foreachSetting(_fn);
+    @:keep
+    public dynamic function hasDuplicates():Bool return @:_0 __self__.value.hasDuplicates();
+    @:keep
+    public dynamic function numSettings():stdgo.GoInt return @:_0 __self__.value.numSettings();
+    @:keep
+    public dynamic function setting(_i:stdgo.GoInt):stdgo._internal.net.http.Http_t_http2setting.T_http2Setting return @:_0 __self__.value.setting(_i);
+    @:keep
+    public dynamic function value(_id:stdgo._internal.net.http.Http_t_http2settingid.T_http2SettingID):{ var _0 : stdgo.GoUInt32; var _1 : Bool; } return @:_0 __self__.value.value(_id);
+    @:keep
+    public dynamic function isAck():Bool return @:_0 __self__.value.isAck();
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function _writeDebug(_0:stdgo.Ref<stdgo._internal.bytes.Bytes_buffer.Buffer>):Void @:_0 __self__.value._writeDebug(_0);
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function _invalidate():Void @:_0 __self__.value._invalidate();
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function _checkValid():Void @:_0 __self__.value._checkValid();
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function string():stdgo.GoString return @:_0 __self__.value.string();
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function header():stdgo._internal.net.http.Http_t_http2frameheader.T_http2FrameHeader return @:_0 __self__.value.header();
+    public function new(__self__, __type__) {
+        this.__self__ = __self__;
+        this.__type__ = __type__;
+    }
+    public function __underlying__() return new stdgo.AnyInterface((__type__.kind() == stdgo._internal.internal.reflect.Reflect.KindType.pointer && !stdgo._internal.internal.reflect.Reflect.isReflectTypeRef(__type__)) ? (__self__ : Dynamic) : (__self__.value : Dynamic), __type__);
+    var __self__ : stdgo._internal.net.http.Http_t_http2settingsframepointer.T_http2SettingsFramePointer;
+    var __type__ : stdgo._internal.internal.reflect.Reflect._Type;
+}

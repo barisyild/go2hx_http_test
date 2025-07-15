@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testArrayOfDirectIface___localname___T_135665Pointer_asInterface) class T_testArrayOfDirectIface___localname___T_135665Pointer_static_extension {
+
+}

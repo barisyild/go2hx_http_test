@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t__struct_165pointerpointer_static_extension.T__struct_165PointerPointer_static_extension) typedef T__struct_165PointerPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t__struct_165pointerpointer.T__struct_165PointerPointer>;

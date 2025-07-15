@@ -1,0 +1,9 @@
+package _internal.fmt_test;
+function exampleGoStringer():Void {
+        var _p1 = @:assignType ({ name : ("Warren" : stdgo.GoString), age : (31u32 : stdgo.GoUInt), addr : (stdgo.Go.setRef(({ city : ("Denver" : stdgo.GoString), state : ("CO" : stdgo.GoString), country : ("U.S.A." : stdgo.GoString) } : _internal.fmt_test.Fmt_test_address.Address), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotfmt_testdotfmt_test_addressdotaddress.__type___internaldotfmt_testdotFmt_test_addressdotAddress })) : stdgo.Ref<_internal.fmt_test.Fmt_test_address.Address>) } : _internal.fmt_test.Fmt_test_person.Person);
+        //"file:///Users/o/.go/go1.21.3/src/fmt/gostringer_example_test.go#L46"
+        stdgo._internal.fmt.Fmt_printf.printf(("%#v\n" : stdgo.GoString), new stdgo.AnyInterface(stdgo.Go.asInterface(_p1, _internal.gotype.Gotype___type___internaldotfmt_testdotfmt_test_persondotperson.__type___internaldotfmt_testdotFmt_test_persondotPerson), new stdgo._internal.internal.reflect.Reflect._Type(_internal.gotype.Gotype___type___internaldotfmt_testdotfmt_test_persondotperson.__type___internaldotfmt_testdotFmt_test_persondotPerson)));
+        var _p2 = @:assignType ({ name : ("Theia" : stdgo.GoString), age : (4u32 : stdgo.GoUInt) } : _internal.fmt_test.Fmt_test_person.Person);
+        //"file:///Users/o/.go/go1.21.3/src/fmt/gostringer_example_test.go#L54"
+        stdgo._internal.fmt.Fmt_printf.printf(("%#v\n" : stdgo.GoString), new stdgo.AnyInterface(stdgo.Go.asInterface(_p2, _internal.gotype.Gotype___type___internaldotfmt_testdotfmt_test_persondotperson.__type___internaldotfmt_testdotFmt_test_persondotPerson), new stdgo._internal.internal.reflect.Reflect._Type(_internal.gotype.Gotype___type___internaldotfmt_testdotfmt_test_persondotperson.__type___internaldotfmt_testdotFmt_test_persondotPerson)));
+    }

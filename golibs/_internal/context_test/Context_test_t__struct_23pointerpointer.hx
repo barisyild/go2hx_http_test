@@ -1,0 +1,2 @@
+package _internal.context_test;
+@:keep @:follow @:using(_internal.context_test.Context_test_t__struct_23pointer_static_extension.T__struct_23Pointer_static_extension) @:using(_internal.context_test.Context_test_t__struct_23pointerpointer_static_extension.T__struct_23PointerPointer_static_extension) typedef T__struct_23PointerPointer = stdgo.Pointer<_internal.context_test.Context_test_t__struct_23pointer.T__struct_23Pointer>;

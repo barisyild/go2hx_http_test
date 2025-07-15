@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotcryptodotx509dotX509_t_authkeyiddotT_authKeyId = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.crypto.x509.X509_t_authkeyid.T_authKeyId", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "id", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.sliceType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint8_kind) }) }, optional : false }]), false, { get : () -> null });

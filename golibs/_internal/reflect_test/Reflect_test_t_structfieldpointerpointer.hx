@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_structfieldpointer_static_extension.T_structFieldPointer_static_extension) typedef T_structFieldPointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_structfieldpointer.T_structFieldPointer>;

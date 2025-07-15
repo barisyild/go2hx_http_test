@@ -1,0 +1,12 @@
+package stdgo._internal.math.big;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.bits.Bits;
+import stdgo._internal.math.Math;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.math.rand.Rand;
+var _cacheBase10 : stdgo._internal.math.big.Big_t__struct_31.T__struct_31 = ({ mutex : ({} : stdgo._internal.sync.Sync_mutex.Mutex), _table : new stdgo.GoArray<stdgo._internal.math.big.Big_t_divisor.T_divisor>(64, 64, ...[for (i in 0 ... (64 > 64 ? 64 : 64 : stdgo.GoInt).toBasic()) ({} : stdgo._internal.math.big.Big_t_divisor.T_divisor)]) } : stdgo._internal.math.big.Big_t__struct_31.T__struct_31);

@@ -1,0 +1,10 @@
+package stdgo._internal.go.scanner;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.unicode.Unicode;
+import stdgo._internal.unicode.utf8.Utf8;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.sort.Sort;
+@:keep @:follow @:using(stdgo._internal.go.scanner.Scanner_modepointer_static_extension.ModePointer_static_extension) typedef ModePointerPointer = stdgo.Pointer<stdgo._internal.go.scanner.Scanner_modepointer.ModePointer>;

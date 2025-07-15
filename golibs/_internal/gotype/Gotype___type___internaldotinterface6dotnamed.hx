@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotInterface6dotNamed = stdgo._internal.internal.reflect.GoType.named("_internal.Interface6.Named", [new stdgo._internal.internal.reflect.MethodType("test", { get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType })], stdgo._internal.internal.reflect.GoType.basic(bool_kind), false, { get : () -> null });

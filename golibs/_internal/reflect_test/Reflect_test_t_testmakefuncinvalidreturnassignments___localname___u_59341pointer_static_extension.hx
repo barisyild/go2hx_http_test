@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testMakeFuncInvalidReturnAssignments___localname___U_59341Pointer_asInterface) class T_testMakeFuncInvalidReturnAssignments___localname___U_59341Pointer_static_extension {
+
+}

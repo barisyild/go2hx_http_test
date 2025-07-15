@@ -1,0 +1,2 @@
+package _internal.unicode.utf8_test;
+@:keep @:follow @:using(_internal.unicode.utf8_test.Utf8_test_t__struct_48pointerpointer_static_extension.T__struct_48PointerPointer_static_extension) typedef T__struct_48PointerPointerPointer = stdgo.Pointer<_internal.unicode.utf8_test.Utf8_test_t__struct_48pointerpointer.T__struct_48PointerPointer>;

@@ -1,0 +1,2 @@
+package _internal.fmt_test;
+@:keep @:follow @:using(_internal.fmt_test.Fmt_test_t_renamedcomplex128_static_extension.T_renamedComplex128_static_extension) @:using(_internal.fmt_test.Fmt_test_t_renamedcomplex128pointer_static_extension.T_renamedComplex128Pointer_static_extension) typedef T_renamedComplex128Pointer = stdgo.Pointer<_internal.fmt_test.Fmt_test_t_renamedcomplex128.T_renamedComplex128>;

@@ -1,0 +1,11 @@
+package stdgo._internal.testing.fstest;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.io.Io;
+import stdgo._internal.path.Path;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.testing.iotest.Iotest;
+@:named @:using(stdgo._internal.testing.fstest.Fstest_mapfs_static_extension.MapFS_static_extension) @:using(stdgo._internal.testing.fstest.Fstest_mapfs_static_extension.MapFS_static_extension) typedef MapFS = stdgo.GoMap<stdgo.GoString, stdgo.Ref<stdgo._internal.testing.fstest.Fstest_mapfile.MapFile>>;

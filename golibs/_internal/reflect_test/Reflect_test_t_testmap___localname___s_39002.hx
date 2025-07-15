@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testmap___localname___s_39002_static_extension.T_testMap___localname___S_39002_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testmap___localname___s_39002_static_extension.T_testMap___localname___S_39002_static_extension) typedef T_testMap___localname___S_39002 = stdgo.GoString;

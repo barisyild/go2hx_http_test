@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testtypeoftypeof___localname___t_192573dotT_testTypeOfTypeOf___localname___T_192573 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testtypeoftypeof___localname___t_192573.T_testTypeOfTypeOf___localname___T_192573", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "_int", embedded : true, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(int_kind) }, optional : false }]), false, { get : () -> null });

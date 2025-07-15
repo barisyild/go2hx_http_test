@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testbytes___localname___b_92201_static_extension.T_testBytes___localname___B_92201_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testbytes___localname___b_92201_static_extension.T_testBytes___localname___B_92201_static_extension) typedef T_testBytes___localname___B_92201 = stdgo.GoUInt8;

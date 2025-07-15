@@ -1,0 +1,2 @@
+package _internal.fmt_test;
+@:keep @:follow @:using(_internal.fmt_test.Fmt_test_t_renamedfloat32_static_extension.T_renamedFloat32_static_extension) @:using(_internal.fmt_test.Fmt_test_t_renamedfloat32pointer_static_extension.T_renamedFloat32Pointer_static_extension) typedef T_renamedFloat32Pointer = stdgo.Pointer<_internal.fmt_test.Fmt_test_t_renamedfloat32.T_renamedFloat32>;

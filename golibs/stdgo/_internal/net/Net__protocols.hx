@@ -1,0 +1,27 @@
+package stdgo._internal.net;
+import stdgo._internal.net.netip.Netip;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.os.Os;
+import stdgo._internal.syscall.Syscall;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.time.Time;
+import stdgo._internal.internal.poll.Poll;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.context.Context;
+import stdgo._internal.internal.itoa.Itoa;
+import stdgo._internal.internal.bytealg.Bytealg;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.io.Io;
+import stdgo._internal.sync.atomic_.Atomic_;
+import _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage;
+import stdgo._internal.runtime.Runtime;
+var _protocols : stdgo.GoMap<stdgo.GoString, stdgo.GoInt> = ({
+        final x = new stdgo.GoMap.GoStringMap<stdgo.GoInt>();
+        x.__defaultValue__ = () -> (0 : stdgo.GoInt);
+        x.set(("icmp" : stdgo.GoString), (1 : stdgo.GoInt));
+x.set(("igmp" : stdgo.GoString), (2 : stdgo.GoInt));
+x.set(("tcp" : stdgo.GoString), (6 : stdgo.GoInt));
+x.set(("udp" : stdgo.GoString), (17 : stdgo.GoInt));
+x.set(("ipv6-icmp" : stdgo.GoString), (58 : stdgo.GoInt));
+        x;
+    } : stdgo.GoMap<stdgo.GoString, stdgo.GoInt>);

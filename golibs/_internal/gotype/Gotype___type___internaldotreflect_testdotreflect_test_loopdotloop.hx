@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_loopdotLoop = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_loop.Loop", [], stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotreflect_testdotreflect_test_loopdotloop.__type___internaldotreflect_testdotReflect_test_loopdotLoop }), false, { get : () -> null });

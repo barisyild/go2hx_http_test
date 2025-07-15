@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_exhaustive_static_extension.T_exhaustive_static_extension) @:using(_internal.reflect_test.Reflect_test_t_exhaustivepointer_static_extension.T_exhaustivePointer_static_extension) typedef T_exhaustivePointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_exhaustive.T_exhaustive>;

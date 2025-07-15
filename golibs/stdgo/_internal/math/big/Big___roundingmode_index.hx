@@ -1,0 +1,12 @@
+package stdgo._internal.math.big;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.math.bits.Bits;
+import stdgo._internal.math.Math;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.encoding.binary.Binary;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.math.rand.Rand;
+var __RoundingMode_index : stdgo.GoArray<stdgo.GoUInt8> = (new stdgo.GoArray<stdgo.GoUInt8>(7, 7, ...[(0 : stdgo.GoUInt8), (13 : stdgo.GoUInt8), (26 : stdgo.GoUInt8), (32 : stdgo.GoUInt8), (44 : stdgo.GoUInt8), (57 : stdgo.GoUInt8), (70 : stdgo.GoUInt8)]).__setNumber32__() : stdgo.GoArray<stdgo.GoUInt8>);

@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testExported___localname___934Exported_196082Pointer_asInterface) class T_testExported___localname___934Exported_196082Pointer_static_extension {
+
+}

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_teststructofexportrules___localname___s1_142172dotT_testStructOfExportRules___localname___S1_142172 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_teststructofexportrules___localname___s1_142172.T_testStructOfExportRules___localname___S1_142172", [], stdgo._internal.internal.reflect.GoType.structType([]), false, { get : () -> null });

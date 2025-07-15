@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_structwithselfptr_static_extension.T_structWithSelfPtr_static_extension) @:using(_internal.reflect_test.Reflect_test_t_structwithselfptrpointer_static_extension.T_structWithSelfPtrPointer_static_extension) typedef T_structWithSelfPtrPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_structwithselfptr.T_structWithSelfPtr>;

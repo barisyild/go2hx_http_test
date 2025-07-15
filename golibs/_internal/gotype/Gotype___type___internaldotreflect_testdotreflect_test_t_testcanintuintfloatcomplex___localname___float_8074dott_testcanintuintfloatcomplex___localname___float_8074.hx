@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testcanintuintfloatcomplex___localname___float_8074dotT_testCanIntUintFloatComplex___localname___float_8074 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testcanintuintfloatcomplex___localname___float_8074.T_testCanIntUintFloatComplex___localname___float_8074", [], stdgo._internal.internal.reflect.GoType.basic(float64_kind), false, { get : () -> null });

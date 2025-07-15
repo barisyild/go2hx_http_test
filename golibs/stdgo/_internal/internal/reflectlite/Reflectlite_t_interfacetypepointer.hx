@@ -1,0 +1,2 @@
+package stdgo._internal.internal.reflectlite;
+@:keep @:follow @:using(stdgo._internal.internal.reflectlite.Reflectlite_t_interfacetype_static_extension.T_interfaceType_static_extension) @:using(stdgo._internal.internal.reflectlite.Reflectlite_t_interfacetypepointer_static_extension.T_interfaceTypePointer_static_extension) typedef T_interfaceTypePointer = stdgo.Pointer<stdgo._internal.internal.reflectlite.Reflectlite_t_interfacetype.T_interfaceType>;

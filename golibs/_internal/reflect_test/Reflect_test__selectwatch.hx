@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+var _selectWatch : _internal.reflect_test.Reflect_test_t__struct_94.T__struct_94 = ({ mutex : ({} : stdgo._internal.sync.Sync_mutex.Mutex), _once : ({} : stdgo._internal.sync.Sync_once.Once), _now : ({} : stdgo._internal.time.Time_time.Time), _info : (null : stdgo.Slice<_internal.reflect_test.Reflect_test_t_caseinfo.T_caseInfo>) } : _internal.reflect_test.Reflect_test_t__struct_94.T__struct_94);

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotfmt_testdotFmt_test_t_testnildoesnotbecometyped___localname___b_55389dotT_testNilDoesNotBecomeTyped___localname___B_55389 = stdgo._internal.internal.reflect.GoType.named("_internal.fmt_test.Fmt_test_t_testnildoesnotbecometyped___localname___b_55389.T_testNilDoesNotBecomeTyped___localname___B_55389", [], stdgo._internal.internal.reflect.GoType.structType([]), false, { get : () -> null });

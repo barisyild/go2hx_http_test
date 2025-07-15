@@ -1,0 +1,5 @@
+package stdgo._internal.context;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.internal.reflectlite.Reflectlite;
+import stdgo._internal.time.Time;
+var deadlineExceeded : stdgo.Error = stdgo.Go.asInterface((new stdgo._internal.context.Context_t_deadlineexceedederror.T_deadlineExceededError() : stdgo._internal.context.Context_t_deadlineexceedederror.T_deadlineExceededError), _internal.gotype.Gotype___type__stdgodot_internaldotcontextdotcontext_t_deadlineexceedederrordott_deadlineexceedederror.__type__stdgodot_internaldotcontextdotContext_t_deadlineexceedederrordotT_deadlineExceededError);

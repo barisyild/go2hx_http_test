@@ -1,0 +1,2 @@
+package stdgo._internal.internal.nettrace;
+@:keep @:follow @:using(stdgo._internal.internal.nettrace.Nettrace_lookupipaltresolverkey_static_extension.LookupIPAltResolverKey_static_extension) @:using(stdgo._internal.internal.nettrace.Nettrace_lookupipaltresolverkeypointer_static_extension.LookupIPAltResolverKeyPointer_static_extension) typedef LookupIPAltResolverKeyPointer = stdgo.Pointer<stdgo._internal.internal.nettrace.Nettrace_lookupipaltresolverkey.LookupIPAltResolverKey>;

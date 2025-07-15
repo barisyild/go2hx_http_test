@@ -1,0 +1,12 @@
+package stdgo._internal.go.parser;
+import stdgo._internal.io.Io;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.os.Os;
+import stdgo._internal.go.ast.Ast;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.go.build.constraint.Constraint;
+import stdgo._internal.go.internal.typeparams.Typeparams;
+var _unresolved : stdgo.Ref<stdgo._internal.go.ast.Ast_object.Object> = (stdgo.Go.setRef(({} : stdgo._internal.go.ast.Ast_object.Object), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotgodotastdotast_objectdotobject.__type__stdgodot_internaldotgodotastdotAst_objectdotObject })) : stdgo.Ref<stdgo._internal.go.ast.Ast_object.Object>);

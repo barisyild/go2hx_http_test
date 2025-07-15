@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_heapstatsaggregatepointer_static_extension.T_heapStatsAggregatePointer_static_extension) typedef T_heapStatsAggregatePointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_heapstatsaggregatepointer.T_heapStatsAggregatePointer>;

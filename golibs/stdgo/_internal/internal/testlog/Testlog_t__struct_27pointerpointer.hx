@@ -1,0 +1,2 @@
+package stdgo._internal.internal.testlog;
+@:keep @:follow @:using(stdgo._internal.internal.testlog.Testlog_t__struct_27pointer_static_extension.T__struct_27Pointer_static_extension) @:using(stdgo._internal.internal.testlog.Testlog_t__struct_27pointerpointer_static_extension.T__struct_27PointerPointer_static_extension) typedef T__struct_27PointerPointer = stdgo.Pointer<stdgo._internal.internal.testlog.Testlog_t__struct_27pointer.T__struct_27Pointer>;

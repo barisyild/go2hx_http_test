@@ -1,0 +1,26 @@
+package _internal.golangdotorg.x.net.http.httpproxy;
+import stdgo._internal.os.Os;
+import stdgo._internal.net.url.Url;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.net.Net;
+import stdgo._internal.strings.Strings;
+import _internal.golangdotorg.x.net.idna.Idna;
+import stdgo._internal.errors.Errors;
+class T_config_asInterface {
+    @:keep
+    public dynamic function _init():Void @:_0 __self__.value._init();
+    @:keep
+    public dynamic function _useProxy(_addr:stdgo.GoString):Bool return @:_0 __self__.value._useProxy(_addr);
+    @:keep
+    public dynamic function _proxyForURL(_reqURL:stdgo.Ref<stdgo._internal.net.url.Url_url.URL>):{ var _0 : stdgo.Ref<stdgo._internal.net.url.Url_url.URL>; var _1 : stdgo.Error; } return @:_0 __self__.value._proxyForURL(_reqURL);
+    @:embedded
+    @:embeddededffieldsffun
+    public dynamic function proxyFunc():stdgo.Ref<stdgo._internal.net.url.Url_url.URL> -> { var _0 : stdgo.Ref<stdgo._internal.net.url.Url_url.URL>; var _1 : stdgo.Error; } return @:_0 __self__.value.proxyFunc();
+    public function new(__self__, __type__) {
+        this.__self__ = __self__;
+        this.__type__ = __type__;
+    }
+    public function __underlying__() return new stdgo.AnyInterface((__type__.kind() == stdgo._internal.internal.reflect.Reflect.KindType.pointer && !stdgo._internal.internal.reflect.Reflect.isReflectTypeRef(__type__)) ? (__self__ : Dynamic) : (__self__.value : Dynamic), __type__);
+    var __self__ : _internal.golangdotorg.x.net.http.httpproxy.Httpproxy_t_configpointer.T_configPointer;
+    var __type__ : stdgo._internal.internal.reflect.Reflect._Type;
+}

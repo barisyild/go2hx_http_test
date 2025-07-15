@@ -1,0 +1,2 @@
+package stdgo._internal.testing;
+@:keep @:follow @:using(stdgo._internal.testing.Testing_t__struct_144pointer_static_extension.T__struct_144Pointer_static_extension) @:using(stdgo._internal.testing.Testing_t__struct_144pointerpointer_static_extension.T__struct_144PointerPointer_static_extension) typedef T__struct_144PointerPointer = stdgo.Pointer<stdgo._internal.testing.Testing_t__struct_144pointer.T__struct_144Pointer>;

@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_uint64interfaceptrpointer_static_extension.T_uint64InterfacePtrPointer_static_extension) typedef T_uint64InterfacePtrPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_uint64interfaceptrpointer.T_uint64InterfacePtrPointer>;

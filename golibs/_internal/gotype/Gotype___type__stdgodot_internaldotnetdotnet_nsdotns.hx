@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotnetdotNet_nsdotNS = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.net.Net_ns.NS", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "host", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(string_kind) }, optional : false }]), false, { get : () -> null });

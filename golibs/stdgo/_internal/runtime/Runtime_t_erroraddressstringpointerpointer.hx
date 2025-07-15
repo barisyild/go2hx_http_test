@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_erroraddressstringpointer_static_extension.T_errorAddressStringPointer_static_extension) typedef T_errorAddressStringPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_erroraddressstringpointer.T_errorAddressStringPointer>;

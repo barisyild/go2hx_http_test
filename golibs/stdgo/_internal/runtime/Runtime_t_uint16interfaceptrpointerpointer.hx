@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_uint16interfaceptrpointer_static_extension.T_uint16InterfacePtrPointer_static_extension) typedef T_uint16InterfacePtrPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_uint16interfaceptrpointer.T_uint16InterfacePtrPointer>;

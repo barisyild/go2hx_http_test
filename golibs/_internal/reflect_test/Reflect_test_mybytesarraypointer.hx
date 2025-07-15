@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_mybytesarray_static_extension.MyBytesArray_static_extension) @:using(_internal.reflect_test.Reflect_test_mybytesarraypointer_static_extension.MyBytesArrayPointer_static_extension) typedef MyBytesArrayPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_mybytesarray.MyBytesArray>;

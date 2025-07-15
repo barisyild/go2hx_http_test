@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_benchmarkmap___localname___v_6812_static_extension.T_benchmarkMap___localname___V_6812_static_extension) @:using(_internal.reflect_test.Reflect_test_t_benchmarkmap___localname___v_6812_static_extension.T_benchmarkMap___localname___V_6812_static_extension) typedef T_benchmarkMap___localname___V_6812 = stdgo.Pointer<stdgo.GoInt>;

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_testsetbytes___localname___b_92498dotT_testSetBytes___localname___B_92498 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_testsetbytes___localname___b_92498.T_testSetBytes___localname___B_92498", [], stdgo._internal.internal.reflect.GoType.sliceType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint8_kind) }), false, { get : () -> null });

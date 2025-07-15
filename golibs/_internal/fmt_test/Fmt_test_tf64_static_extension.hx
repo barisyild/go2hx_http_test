@@ -1,0 +1,10 @@
+package _internal.fmt_test;
+@:keep @:allow(_internal.fmt_test.Fmt_test.TF64_asInterface) class TF64_static_extension {
+    @:keep
+    @:tdfield
+    static public function string( _v:_internal.fmt_test.Fmt_test_tf64.TF64):stdgo.GoString {
+        @:recv var _v:_internal.fmt_test.Fmt_test_tf64.TF64 = _v;
+        //"file:///Users/o/.go/go1.21.3/src/fmt/stringer_test.go#L42"
+        return stdgo._internal.fmt.Fmt_sprintf.sprintf(("F64: %f" : stdgo.GoString), new stdgo.AnyInterface((_v : stdgo.GoFloat64), new stdgo._internal.internal.reflect.Reflect._Type(stdgo._internal.internal.reflect.GoType.basic(float64_kind))))?.__copy__();
+    }
+}

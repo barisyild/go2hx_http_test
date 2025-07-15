@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotcryptodotinternaldotnistecdotfiatdotFiat_t_p224montgomerydomainfieldelementdotT_p224MontgomeryDomainFieldElement = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.crypto.internal.nistec.fiat.Fiat_t_p224montgomerydomainfieldelement.T_p224MontgomeryDomainFieldElement", [], stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint64_kind) }, 4), false, { get : () -> null });

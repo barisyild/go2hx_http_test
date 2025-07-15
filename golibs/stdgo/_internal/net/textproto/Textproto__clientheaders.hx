@@ -1,0 +1,13 @@
+package stdgo._internal.net.textproto;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.io.Io;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.testing.Testing;
+import stdgo._internal.net.Net;
+var _clientHeaders : stdgo.GoString = stdgo._internal.strings.Strings_replace.replace(("Host: golang.org\nConnection: keep-alive\nCache-Control: max-age=0\nAccept: application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5\nUser-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3\nAccept-Encoding: gzip,deflate,sdch\nAccept-Language: en-US,en;q=0.8,fr-CH;q=0.6\nAccept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3\nCOOKIE: __utma=000000000.0000000000.0000000000.0000000000.0000000000.00; __utmb=000000000.0.00.0000000000; __utmc=000000000; __utmz=000000000.0000000000.00.0.utmcsr=code.google.com|utmccn=(referral)|utmcmd=referral|utmcct=/p/go/issues/detail\nNon-Interned: test\n\n" : stdgo.GoString), ("\n" : stdgo.GoString), ("\r\n" : stdgo.GoString), (-1 : stdgo.GoInt));

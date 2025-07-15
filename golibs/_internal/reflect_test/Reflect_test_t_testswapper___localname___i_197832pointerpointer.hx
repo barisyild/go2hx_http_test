@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_testswapper___localname___i_197832pointer_static_extension.T_testSwapper___localname___I_197832Pointer_static_extension) typedef T_testSwapper___localname___I_197832PointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_testswapper___localname___i_197832pointer.T_testSwapper___localname___I_197832Pointer>;

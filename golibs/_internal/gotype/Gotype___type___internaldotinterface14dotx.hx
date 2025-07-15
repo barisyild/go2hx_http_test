@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotInterface14dotX = stdgo._internal.internal.reflect.GoType.named("_internal.Interface14.X", [new stdgo._internal.internal.reflect.MethodType("m", { get : () -> stdgo._internal.internal.reflect.GoType.signature(false, { get : () -> [] }, { get : () -> [] }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType }) }, { get : () -> stdgo._internal.internal.reflect.GoType.invalidType })], stdgo._internal.internal.reflect.GoType.basic(int_kind), false, { get : () -> null });

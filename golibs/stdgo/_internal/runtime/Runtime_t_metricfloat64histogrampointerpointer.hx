@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_metricfloat64histogrampointer_static_extension.T_metricFloat64HistogramPointer_static_extension) typedef T_metricFloat64HistogramPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_metricfloat64histogrampointer.T_metricFloat64HistogramPointer>;

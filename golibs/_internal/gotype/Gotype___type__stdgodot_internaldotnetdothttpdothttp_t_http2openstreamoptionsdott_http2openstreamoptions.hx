@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotnetdothttpdotHttp_t_http2openstreamoptionsdotT_http2OpenStreamOptions = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.net.http.Http_t_http2openstreamoptions.T_http2OpenStreamOptions", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "pusherID", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.basic(uint32_kind) }, optional : false }]), false, { get : () -> null });

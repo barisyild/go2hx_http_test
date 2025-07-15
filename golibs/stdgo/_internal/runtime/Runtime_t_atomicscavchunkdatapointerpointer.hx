@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_atomicscavchunkdatapointer_static_extension.T_atomicScavChunkDataPointer_static_extension) typedef T_atomicScavChunkDataPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_atomicscavchunkdatapointer.T_atomicScavChunkDataPointer>;

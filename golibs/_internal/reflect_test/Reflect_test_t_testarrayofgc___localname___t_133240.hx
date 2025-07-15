@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testarrayofgc___localname___t_133240_static_extension.T_testArrayOfGC___localname___T_133240_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testarrayofgc___localname___t_133240_static_extension.T_testArrayOfGC___localname___T_133240_static_extension) typedef T_testArrayOfGC___localname___T_133240 = stdgo.Pointer<stdgo.GoUIntptr>;

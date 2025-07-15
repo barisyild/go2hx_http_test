@@ -1,0 +1,2 @@
+package stdgo._internal.runtime;
+@:keep @:follow @:using(stdgo._internal.runtime.Runtime_t_liveuserarenachunkpointer_static_extension.T_liveUserArenaChunkPointer_static_extension) typedef T_liveUserArenaChunkPointerPointer = stdgo.Pointer<stdgo._internal.runtime.Runtime_t_liveuserarenachunkpointer.T_liveUserArenaChunkPointer>;

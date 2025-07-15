@@ -1,0 +1,46 @@
+package stdgo._internal.net;
+import stdgo._internal.net.netip.Netip;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.os.Os;
+import stdgo._internal.syscall.Syscall;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.time.Time;
+import stdgo._internal.internal.poll.Poll;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.context.Context;
+import stdgo._internal.internal.itoa.Itoa;
+import stdgo._internal.internal.bytealg.Bytealg;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.io.Io;
+import stdgo._internal.sync.atomic_.Atomic_;
+import _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage;
+import stdgo._internal.runtime.Runtime;
+var _services : stdgo.GoMap<stdgo.GoString, stdgo.GoMap<stdgo.GoString, stdgo.GoInt>> = ({
+        final x = new stdgo.GoMap.GoStringMap<stdgo.GoMap<stdgo.GoString, stdgo.GoInt>>();
+        x.__defaultValue__ = () -> (null : stdgo.GoMap<stdgo.GoString, stdgo.GoInt>);
+        x.set(("udp" : stdgo.GoString), ({
+            final x = new stdgo.GoMap.GoStringMap<stdgo.GoInt>();
+            x.__defaultValue__ = () -> (0 : stdgo.GoInt);
+            x.set(("domain" : stdgo.GoString), (53 : stdgo.GoInt));
+            x;
+        } : stdgo.GoMap<stdgo.GoString, stdgo.GoInt>));
+x.set(("tcp" : stdgo.GoString), ({
+            final x = new stdgo.GoMap.GoStringMap<stdgo.GoInt>();
+            x.__defaultValue__ = () -> (0 : stdgo.GoInt);
+            x.set(("ftp" : stdgo.GoString), (21 : stdgo.GoInt));
+x.set(("ftps" : stdgo.GoString), (990 : stdgo.GoInt));
+x.set(("gopher" : stdgo.GoString), (70 : stdgo.GoInt));
+x.set(("http" : stdgo.GoString), (80 : stdgo.GoInt));
+x.set(("https" : stdgo.GoString), (443 : stdgo.GoInt));
+x.set(("imap2" : stdgo.GoString), (143 : stdgo.GoInt));
+x.set(("imap3" : stdgo.GoString), (220 : stdgo.GoInt));
+x.set(("imaps" : stdgo.GoString), (993 : stdgo.GoInt));
+x.set(("pop3" : stdgo.GoString), (110 : stdgo.GoInt));
+x.set(("pop3s" : stdgo.GoString), (995 : stdgo.GoInt));
+x.set(("smtp" : stdgo.GoString), (25 : stdgo.GoInt));
+x.set(("ssh" : stdgo.GoString), (22 : stdgo.GoInt));
+x.set(("telnet" : stdgo.GoString), (23 : stdgo.GoInt));
+            x;
+        } : stdgo.GoMap<stdgo.GoString, stdgo.GoInt>));
+        x;
+    } : stdgo.GoMap<stdgo.GoString, stdgo.GoMap<stdgo.GoString, stdgo.GoInt>>);

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotreflectdotReflect_bufferdotBuffer = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.reflect.Reflect_buffer.Buffer", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "_buf", embedded : false, tag : "", type : { get : () -> stdgo._internal.internal.reflect.GoType.sliceType({ get : () -> stdgo._internal.internal.reflect.GoType.basic(uint8_kind) }) }, optional : false }]), false, { get : () -> null });

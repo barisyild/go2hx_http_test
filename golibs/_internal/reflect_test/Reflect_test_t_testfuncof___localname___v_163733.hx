@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testfuncof___localname___v_163733_static_extension.T_testFuncOf___localname___V_163733_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testfuncof___localname___v_163733_static_extension.T_testFuncOf___localname___V_163733_static_extension) typedef T_testFuncOf___localname___V_163733 = stdgo.GoFloat64;

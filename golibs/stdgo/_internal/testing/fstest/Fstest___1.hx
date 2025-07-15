@@ -1,0 +1,11 @@
+package stdgo._internal.testing.fstest;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.io.Io;
+import stdgo._internal.path.Path;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.testing.iotest.Iotest;
+var __1 : stdgo._internal.io.fs.Fs_file.File = stdgo.Go.asInterface((null : stdgo.Ref<stdgo._internal.testing.fstest.Fstest_t_openmapfile.T_openMapFile>), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldottestingdotfstestdotfstest_t_openmapfiledott_openmapfile.__type__stdgodot_internaldottestingdotfstestdotFstest_t_openmapfiledotT_openMapFile }));

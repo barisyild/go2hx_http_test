@@ -1,0 +1,15 @@
+package stdgo._internal.go.parser;
+import stdgo._internal.io.Io;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.os.Os;
+import stdgo._internal.go.ast.Ast;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.go.build.constraint.Constraint;
+import stdgo._internal.go.internal.typeparams.Typeparams;
+@:local @:using(stdgo._internal.go.parser.Parser_t__struct_36_static_extension.T__struct_36_static_extension) @:using(stdgo._internal.go.parser.Parser_t__struct_36_static_extension.T__struct_36_static_extension) typedef T__struct_36 = {
+    public var _pos : stdgo._internal.go.token.Token_pos.Pos;
+    public var _lit : stdgo.GoString;
+};

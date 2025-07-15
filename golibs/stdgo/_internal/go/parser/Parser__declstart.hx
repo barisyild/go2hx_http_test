@@ -1,0 +1,20 @@
+package stdgo._internal.go.parser;
+import stdgo._internal.io.Io;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.os.Os;
+import stdgo._internal.go.ast.Ast;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.path.filepath.Filepath;
+import stdgo._internal.go.token.Token;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.go.build.constraint.Constraint;
+import stdgo._internal.go.internal.typeparams.Typeparams;
+var _declStart : stdgo.GoMap<stdgo._internal.go.token.Token_token.Token, Bool> = ({
+        final x = new stdgo.GoMap.GoIntMap<Bool>();
+        x.__defaultValue__ = () -> false;
+        x.set((75 : stdgo._internal.go.token.Token_token.Token), true);
+x.set((64 : stdgo._internal.go.token.Token_token.Token), true);
+x.set((84 : stdgo._internal.go.token.Token_token.Token), true);
+x.set((85 : stdgo._internal.go.token.Token_token.Token), true);
+        x;
+    } : stdgo.GoMap<stdgo._internal.go.token.Token_token.Token, Bool>);

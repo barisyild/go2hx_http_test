@@ -1,0 +1,2 @@
+package _internal.fmt_test;
+@:keep @:follow @:using(_internal.fmt_test.Fmt_test_t__struct_47_static_extension.T__struct_47_static_extension) @:using(_internal.fmt_test.Fmt_test_t__struct_47pointer_static_extension.T__struct_47Pointer_static_extension) @:using(_internal.fmt_test.Fmt_test_t__struct_47pointer_static_extension.T__struct_47Pointer_static_extension) typedef T__struct_47Pointer = stdgo.Pointer<_internal.fmt_test.Fmt_test_t__struct_47.T__struct_47>;

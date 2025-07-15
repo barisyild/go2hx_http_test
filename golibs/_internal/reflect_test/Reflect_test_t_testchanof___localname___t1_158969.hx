@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testchanof___localname___t1_158969_static_extension.T_testChanOf___localname___T1_158969_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testchanof___localname___t1_158969_static_extension.T_testChanOf___localname___T1_158969_static_extension) typedef T_testChanOf___localname___T1_158969 = stdgo.GoInt;

@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldotruntimedotRuntime_t_gclinkdotT_gclink = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.runtime.Runtime_t_gclink.T_gclink", [], stdgo._internal.internal.reflect.GoType.structType([{ name : "_next", embedded : false, tag : "", type : { get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotruntimedotruntime_t_gclinkptrdott_gclinkptr.__type__stdgodot_internaldotruntimedotRuntime_t_gclinkptrdotT_gclinkptr }, optional : false }]), false, { get : () -> null });

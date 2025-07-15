@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t_benchmarkmap___localname___s_6825pointer_static_extension.T_benchmarkMap___localname___S_6825Pointer_static_extension) typedef T_benchmarkMap___localname___S_6825PointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t_benchmarkmap___localname___s_6825pointer.T_benchmarkMap___localname___S_6825Pointer>;

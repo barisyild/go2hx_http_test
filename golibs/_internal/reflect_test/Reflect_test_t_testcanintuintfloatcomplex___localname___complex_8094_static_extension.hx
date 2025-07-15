@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testCanIntUintFloatComplex___localname___complex_8094_asInterface) class T_testCanIntUintFloatComplex___localname___complex_8094_static_extension {
+
+}

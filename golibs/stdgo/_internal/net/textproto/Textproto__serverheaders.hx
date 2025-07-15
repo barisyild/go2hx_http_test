@@ -1,0 +1,13 @@
+package stdgo._internal.net.textproto;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.io.Io;
+import stdgo._internal.reflect.Reflect;
+import stdgo._internal.runtime.Runtime;
+import stdgo._internal.testing.Testing;
+import stdgo._internal.net.Net;
+var _serverHeaders : stdgo.GoString = stdgo._internal.strings.Strings_replace.replace(("Content-Type: text/html; charset=utf-8\nContent-Encoding: gzip\nDate: Thu, 27 Sep 2012 09:03:33 GMT\nServer: Google Frontend\nCache-Control: private\nContent-Length: 2298\nVIA: 1.1 proxy.example.com:80 (XXX/n.n.n-nnn)\nConnection: Close\nNon-Interned: test\n\n" : stdgo.GoString), ("\n" : stdgo.GoString), ("\r\n" : stdgo.GoString), (-1 : stdgo.GoInt));

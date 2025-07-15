@@ -1,0 +1,10 @@
+package stdgo._internal.net.textproto;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.bytes.Bytes;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.fmt.Fmt;
+import stdgo._internal.bufio.Bufio;
+import stdgo._internal.net.Net;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.io.Io;
+@:keep @:follow @:using(stdgo._internal.net.textproto.Textproto_t__struct_21_static_extension.T__struct_21_static_extension) @:using(stdgo._internal.net.textproto.Textproto_t__struct_21pointer_static_extension.T__struct_21Pointer_static_extension) @:using(stdgo._internal.net.textproto.Textproto_t__struct_21pointer_static_extension.T__struct_21Pointer_static_extension) typedef T__struct_21Pointer = stdgo.Pointer<stdgo._internal.net.textproto.Textproto_t__struct_21.T__struct_21>;

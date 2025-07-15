@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotreflect_testdotReflect_test_t_teststructof___localname___structfieldtype_141939dotT_testStructOf___localname___structFieldType_141939 = stdgo._internal.internal.reflect.GoType.named("_internal.reflect_test.Reflect_test_t_teststructof___localname___structfieldtype_141939.T_testStructOf___localname___structFieldType_141939", [], stdgo._internal.internal.reflect.GoType.interfaceType(true, []), false, { get : () -> null });

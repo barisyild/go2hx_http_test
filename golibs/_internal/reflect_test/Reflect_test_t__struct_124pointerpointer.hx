@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_t__struct_124pointer_static_extension.T__struct_124Pointer_static_extension) @:using(_internal.reflect_test.Reflect_test_t__struct_124pointerpointer_static_extension.T__struct_124PointerPointer_static_extension) typedef T__struct_124PointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_t__struct_124pointer.T__struct_124Pointer>;

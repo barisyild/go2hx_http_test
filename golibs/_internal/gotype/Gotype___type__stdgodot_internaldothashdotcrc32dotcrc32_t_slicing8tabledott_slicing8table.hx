@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type__stdgodot_internaldothashdotcrc32dotCrc32_t_slicing8tabledotT_slicing8Table = stdgo._internal.internal.reflect.GoType.named("stdgo._internal.hash.crc32.Crc32_t_slicing8table.T_slicing8Table", [], stdgo._internal.internal.reflect.GoType.arrayType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldothashdotcrc32dotcrc32_tabledottable.__type__stdgodot_internaldothashdotcrc32dotCrc32_tabledotTable }, 8), false, { get : () -> null });

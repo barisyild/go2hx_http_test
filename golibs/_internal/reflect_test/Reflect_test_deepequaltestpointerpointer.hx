@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_deepequaltestpointer_static_extension.DeepEqualTestPointer_static_extension) typedef DeepEqualTestPointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_deepequaltestpointer.DeepEqualTestPointer>;

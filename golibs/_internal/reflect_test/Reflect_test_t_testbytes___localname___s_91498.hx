@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:named @:using(_internal.reflect_test.Reflect_test_t_testbytes___localname___s_91498_static_extension.T_testBytes___localname___S_91498_static_extension) @:using(_internal.reflect_test.Reflect_test_t_testbytes___localname___s_91498_static_extension.T_testBytes___localname___S_91498_static_extension) typedef T_testBytes___localname___S_91498 = stdgo.Slice<stdgo.GoUInt8>;

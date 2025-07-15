@@ -1,0 +1,2 @@
+package _internal.bytes_test;
+@:keep @:follow @:using(_internal.bytes_test.Bytes_test_t_negativereaderpointer_static_extension.T_negativeReaderPointer_static_extension) typedef T_negativeReaderPointerPointer = stdgo.Pointer<_internal.bytes_test.Bytes_test_t_negativereaderpointer.T_negativeReaderPointer>;

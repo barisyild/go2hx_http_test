@@ -1,0 +1,4 @@
+package _internal.reflect_test;
+@:keep @:allow(_internal.reflect_test.Reflect_test.T_testStructOfTooLarge___localname___test_156983Pointer_asInterface) class T_testStructOfTooLarge___localname___test_156983Pointer_static_extension {
+
+}

@@ -1,0 +1,2 @@
+package _internal.reflect_test;
+@:keep @:follow @:using(_internal.reflect_test.Reflect_test_settablestructpointer_static_extension.SettableStructPointer_static_extension) typedef SettableStructPointerPointer = stdgo.Pointer<_internal.reflect_test.Reflect_test_settablestructpointer.SettableStructPointer>;

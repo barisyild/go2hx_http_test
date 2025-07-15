@@ -1,0 +1,2 @@
+package stdgo._internal.reflect.internal.example2;
+@:keep @:follow @:using(stdgo._internal.reflect.internal.example2.Example2_mystruct_static_extension.MyStruct_static_extension) @:using(stdgo._internal.reflect.internal.example2.Example2_mystructpointer_static_extension.MyStructPointer_static_extension) typedef MyStructPointer = stdgo.Pointer<stdgo._internal.reflect.internal.example2.Example2_mystruct.MyStruct>;

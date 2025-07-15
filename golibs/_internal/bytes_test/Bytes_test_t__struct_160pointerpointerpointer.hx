@@ -1,0 +1,2 @@
+package _internal.bytes_test;
+@:keep @:follow @:using(_internal.bytes_test.Bytes_test_t__struct_160pointerpointer_static_extension.T__struct_160PointerPointer_static_extension) typedef T__struct_160PointerPointerPointer = stdgo.Pointer<_internal.bytes_test.Bytes_test_t__struct_160pointerpointer.T__struct_160PointerPointer>;

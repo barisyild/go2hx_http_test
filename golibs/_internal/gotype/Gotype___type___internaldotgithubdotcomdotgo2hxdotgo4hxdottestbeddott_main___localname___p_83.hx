@@ -1,0 +1,2 @@
+package _internal.gotype;
+@:noCompletion var __type___internaldotgithubdotcomdotgo2hxdotgo4hxdottestbeddotT_main___localname___P_83 = stdgo._internal.internal.reflect.GoType.named("_internal.githubdotcom.go2hx.go4hx.testbed.T_main___localname___P_83", [], stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type___internaldotgithubdotcomdotgo2hxdotgo4hxdottestbeddott_main___localname___t_55.__type___internaldotgithubdotcomdotgo2hxdotgo4hxdottestbeddotT_main___localname___T_55 }), false, { get : () -> null });

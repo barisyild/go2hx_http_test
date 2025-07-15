@@ -1,0 +1,31 @@
+package stdgo._internal.net;
+import stdgo._internal.net.netip.Netip;
+import stdgo._internal.internal.godebug.Godebug;
+import stdgo._internal.os.Os;
+import stdgo._internal.syscall.Syscall;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.time.Time;
+import stdgo._internal.internal.poll.Poll;
+import stdgo._internal.sort.Sort;
+import stdgo._internal.context.Context;
+import stdgo._internal.internal.itoa.Itoa;
+import stdgo._internal.internal.bytealg.Bytealg;
+import stdgo._internal.io.fs.Fs;
+import stdgo._internal.io.Io;
+import stdgo._internal.sync.atomic_.Atomic_;
+import _internal.golangdotorg.x.net.dns.dnsmessage.Dnsmessage;
+import stdgo._internal.runtime.Runtime;
+function filePacketConn(_f:stdgo.Ref<stdgo._internal.os.Os_file.File>):{ var _0 : stdgo._internal.net.Net_packetconn.PacketConn; var _1 : stdgo.Error; } {
+        var _c = (null : stdgo._internal.net.Net_packetconn.PacketConn), _err = (null : stdgo.Error);
+        {
+            var __tmp__ = stdgo._internal.net.Net__filepacketconn._filePacketConn(_f);
+            _c = @:tmpset0 __tmp__._0;
+            _err = @:tmpset0 __tmp__._1;
+        };
+        //"file:///Users/o/.go/go1.21.3/src/net/file.go#L47"
+        if (_err != null) {
+            _err = stdgo.Go.asInterface((stdgo.Go.setRef(({ op : ("file" : stdgo.GoString), net : ("file+net" : stdgo.GoString), source : (null : stdgo._internal.net.Net_addr.Addr), addr : stdgo.Go.asInterface((_f.name() : stdgo._internal.net.Net_t_fileaddr.T_fileAddr), _internal.gotype.Gotype___type__stdgodot_internaldotnetdotnet_t_fileaddrdott_fileaddr.__type__stdgodot_internaldotnetdotNet_t_fileaddrdotT_fileAddr), err : _err } : stdgo._internal.net.Net_operror.OpError), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotnetdotnet_operrordotoperror.__type__stdgodot_internaldotnetdotNet_operrordotOpError })) : stdgo.Ref<stdgo._internal.net.Net_operror.OpError>), stdgo._internal.internal.reflect.GoType.refType({ get : () -> _internal.gotype.Gotype___type__stdgodot_internaldotnetdotnet_operrordotoperror.__type__stdgodot_internaldotnetdotNet_operrordotOpError }));
+        };
+        //"file:///Users/o/.go/go1.21.3/src/net/file.go#L50"
+        return { _0 : _c, _1 : _err };
+    }

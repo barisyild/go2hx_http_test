@@ -1,0 +1,7 @@
+package stdgo._internal.go.build.constraint;
+import stdgo._internal.errors.Errors;
+import stdgo._internal.strings.Strings;
+import stdgo._internal.unicode.Unicode;
+import stdgo._internal.strconv.Strconv;
+import stdgo._internal.unicode.utf8.Utf8;
+@:keep @:follow @:using(stdgo._internal.go.build.constraint.Constraint_notexpr_static_extension.NotExpr_static_extension) @:using(stdgo._internal.go.build.constraint.Constraint_notexprpointer_static_extension.NotExprPointer_static_extension) typedef NotExprPointer = stdgo.Pointer<stdgo._internal.go.build.constraint.Constraint_notexpr.NotExpr>;
